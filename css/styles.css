@@ -1,0 +1,297 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-background-color: #ffffff;
+    --second-background-color: #4d5ae5;
+    --third-background-color: #F4F4FD;
+    --main-title-color: #2e2f42;
+    --main-text-color: #434455;
+    --hover-color: #404bbf;
+} 
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: var(--main-background-color)
+}
+
+
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.imgs {
+    display: block;
+}
+
+/**----------------------HEADER-------------------**/
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.logo-studio-header {
+    color: var(--main-title-color) ;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-background-color);
+    margin-right: 76px;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--hover-color);
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    margin-right: 40px;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--hover-color);
+}
+
+ /**------------------------HERO------------------------------**/
+ .hero-section {
+    background-color: var(--main-title-color);
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
+ }
+
+ .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--main-background-color);
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+ }
+
+ .hero-btn {
+    border-radius: 4px;
+    padding: 16px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--main-background-color);
+    background-color: var(--second-background-color);
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--hover-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+/**------------------SECTION 1-HIDDEN SKILLS---------------------**/
+.section-skills {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.hidden {}
+
+.subtitle {
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color: var(--main-title-color);
+     margin-bottom: 8px;
+}  
+
+.text {
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: var(--main-text-color);
+}
+ 
+.txt-skills{
+    width: 264px;
+}
+/**----------------------SECTION WWDOING---------------------**/
+.section-doing {
+    padding-bottom: 120px;
+}
+
+.title {
+     font-size: 36px;
+     line-height: 1.11;
+     text-align: center;
+     letter-spacing: 0.02em;
+     text-transform: capitalize;
+     color: var(--main-title-color);
+     margin-bottom: 72px;
+}
+
+/**---------------------OUR TEAM-------------------**/
+.indent {
+    padding: 32px 16px;
+    text-align: center;
+}
+
+.section-team {
+    background-color: var(--third-background-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.item-three {
+background-color: var(--main-background-color);
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+}
+
+/**------------------------PORTFOLIO----------------------**/
+.portfolio-header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.section-portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.portfolio-btns-list {
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.portfolio-btn {
+     background-color: var(--third-background-color);
+     font-family: Roboto, sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     color: var(--second-background-color);
+     border-radius: 4px;
+     align-items: center;
+     padding: 12px 24px;
+     border-color: transparent;
+     cursor: pointer;
+}
+
+
+.portfolio-imgs {
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+.indent-imgs-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #E7E9FC;
+  border-top: none;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--main-background-color);
+    background-color: var(--hover-color);
+}
+
+/**-------------------FOOTER--------------------**/
+.footer {
+    background-color: var(--main-title-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.logo-studio-footer {
+    color: var(--third-background-color);
+}
+
+.text-footer {
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: 0.02em;
+     color: var(--third-background-color);
+     width: 264px;
+     margin-top: 17.5px;
+}
